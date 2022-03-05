@@ -7,5 +7,34 @@
   <welcome-file-list>
     <welcome-file>/index.jsp</welcome-file>
   </welcome-file-list>
-  
+  <servlet>
+    <description></description>
+    <display-name>EmailServlet</display-name>
+    <servlet-name>EmailServlet</servlet-name>
+    <servlet-class>edu.nbcc.servlet.EmailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmailServlet</servlet-name>
+    <url-pattern>/EmailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmailServlet1</display-name>
+    <servlet-name>EmailServlet1</servlet-name>
+    <servlet-class>EmailServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmailServlet1</servlet-name>
+    <url-pattern>/EmailServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmailServlet2</display-name>
+    <servlet-name>EmailServlet2</servlet-name>
+    <servlet-class>edu.nbcc.servlet.EmailServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmailServlet2</servlet-name>
+    <url-pattern>/EmailServlet2</url-pattern>
+  </servlet-mapping>
 </web-app>
